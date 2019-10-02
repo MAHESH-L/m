@@ -6,12 +6,12 @@ use App\Http\CacheData\CacheData;
 
 Class FileSaveCache implements CacheData
 {
-    Public function saveCache($id, $data)
+    Public function saveCache()
     {
-        return "Saved SuccessFully..to File   ".$data;
+        return "Saved SuccessFully..to File";
     }
 
-    public function getCache($id)
+    public function getCache()
     {
         return "Data from File Cache.";
     }

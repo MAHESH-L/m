@@ -4,7 +4,7 @@ namespace App\Http\CacheData;
 
 interface CacheData
 {
-    public function saveCache($id, $data);
+    public function saveCache();
 
-    public function getCache($id);
+    public function getCache();
 }

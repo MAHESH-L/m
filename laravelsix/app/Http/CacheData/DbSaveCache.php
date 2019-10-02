@@ -6,12 +6,12 @@ use App\Http\CacheData\CacheData;
 
 class DbSaveCache implements CacheData
 {
-    Public function saveCache($id, $data)
+    Public function saveCache()
     {
         return "Saved SuccessFully.. to DB!";
     }
 
-    public function getCache($id)
+    public function getCache()
     {
         return "Data from Db Cache.";
     }
